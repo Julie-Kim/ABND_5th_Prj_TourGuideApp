@@ -19,7 +19,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    private int tabTitles[] = new int[]{
+    private int[] mTabTitles = new int[]{
             R.string.top_attractions,
             R.string.event,
             R.string.festival,
@@ -28,7 +28,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             R.string.information_center
     };
 
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -60,6 +60,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return mContext.getString(tabTitles[position]);
+        return mContext.getString(mTabTitles[position]);
     }
 }

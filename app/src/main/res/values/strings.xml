@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tour Guide App</string>
+    <string name="app_name">Seoul Tour Guide</string>
     <string name="image_of_tour">Image of tour</string>
     <string name="view_more">View more</string>
     <string name="top_attractions">Top attractions</string>
@@ -104,4 +104,34 @@
     <string name="foreigner_taekwondo_experience_program_link">http://english.visitseoul.net/event-festival/Foreigner-Taekwondo-Experience-Program_/29116?curPage=1</string>
     <string name="hallyu_k_food_cooking_class_link">http://english.visitseoul.net/event-festival/Cooking-class-for-K-foods-featured-in-K-dramas_/21116?curPage=1</string>
     <string name="workshop_for_my_dear_link">http://www.jeijcc.org/intro.html</string>
+
+    <string name="yeon_deung_hoe">Yeon Deung Hoe</string>
+    <string name="seoul_drum_festival">Seoul Drum Festival</string>
+    <string name="seoul_rose_festival">Seoul Rose Festival</string>
+    <string name="seoul_bamdokkaebi_night_market">Seoul Bamdokkaebi Night Market</string>
+
+    <string name="yeon_deung_hoe_detail">Lotus Lantern Festival for Buddha\'s Birthday</string>
+    <string name="seoul_drum_festival_detail">A performance lineup made up of top world-class drummers</string>
+    <string name="seoul_rose_festival_detail">An annual rose festival at the Rose Tunnel (5.15km) in Jungnang-gu, where thousands of roses bloom every May</string>
+    <string name="seoul_bamdokkaebi_night_market_detail">A fantasy, dream-like market that takes after its namesake, "Bamdokkaebi" or "Night Goblin".</string>
+
+    <string name="yeon_deung_hoe_address">03144  55 Ujeongguk-ro, Jongno-gu, Seoul</string>
+    <string name="seoul_drum_festival_address">Seoul Plaza</string>
+    <string name="seoul_rose_festival_address">02003  332, Jungnangcheon-ro, Jungnang-gu, Seoul</string>
+    <string name="seoul_bamdokkaebi_night_market_address">1. Yeouido World Night Market: 330 Yeouidong-ro, Yeongdeungpo-gu, Seoul\n2. Banpo Romantic Moonlight Market: 40 Sinbanpo-ro 11-gil, Seocho-gu, Seoul\n3. DDP Youth Runway Market: 281 Eulji-ro, Jung-gu, Seoul\n4. Cheonggyecheon Time Tour Market: 14 Seorin-dong, Jongno-gu, Seoul\n5. Oil Tank Culture Park Season Market: 87 Jeungsan-ro, Mapo-gu, Seoul</string>
+
+    <string name="yeon_deung_hoe_hours">May. 03, 2019 ~ May. 05, 2019</string>
+    <string name="seoul_drum_festival_hours">May. 24, 2019 ~ May. 25, 2019</string>
+    <string name="seoul_rose_festival_hours">May. 24, 2019 ~ May. 26, 2019 / 10:00 to 22:00</string>
+    <string name="seoul_bamdokkaebi_night_market_hours">Apr. 05, 2019 ~ Oct. 27, 2019</string>
+
+    <string name="yeon_deung_hoe_phone">+82–2–2011–1744~7</string>
+    <string name="seoul_drum_festival_phone">+82–70–7462–1109</string>
+    <string name="seoul_rose_festival_phone">+82–2–2094–1823</string>
+    <string name="seoul_bamdokkaebi_night_market_phone">+82–2–120</string>
+
+    <string name="yeon_deung_hoe_link">http://www.llf.or.kr/eng</string>
+    <string name="seoul_drum_festival_link">http://www.seouldrum.go.kr/eng</string>
+    <string name="seoul_rose_festival_link">http://seoulrose.jungnang.go.kr/seoulRoseEng/main.do</string>
+    <string name="seoul_bamdokkaebi_night_market_link">http://www.bamdokkaebi.org/?_l=en</string>
 </resources>
