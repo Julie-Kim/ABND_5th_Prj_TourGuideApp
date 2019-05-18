@@ -134,4 +134,70 @@
     <string name="seoul_drum_festival_link">http://www.seouldrum.go.kr/eng</string>
     <string name="seoul_rose_festival_link">http://seoulrose.jungnang.go.kr/seoulRoseEng/main.do</string>
     <string name="seoul_bamdokkaebi_night_market_link">http://www.bamdokkaebi.org/?_l=en</string>
+
+    <string name="sinmi_sikdang">Sinmi Sikdang</string>
+    <string name="oyull">Oyull</string>
+    <string name="sanha">Sanha</string>
+    <string name="cacao_green">Cacao Green</string>
+    <string name="the_green_table">The Green Table</string>
+    <string name="makoto">Makoto</string>
+    <string name="badalbi">Badalbi</string>
+    <string name="paul_n_paulin">Paul &amp; Paulin (Hongdae Branch)</string>
+    <string name="beard_papas">Beard Papa\'s</string>
+    <string name="pierro_gagnaire">Pierro Gagnaire (Lotte Hotel Seoul Branch)</string>
+
+    <string name="sinmi_sikdang_detail">Signature Dish : Park Back-bone Stew, pork ribs</string>
+    <string name="oyull_detail">Signature Dish : Hanu kkotdeungsim steak, Heungmaneul ueong ansim steak</string>
+    <string name="sanha_detail">Signature Dish : Dumplings</string>
+    <string name="cacao_green_detail">Signature Dish : Triple Chocolate, Triple Mango Sorbet Iceflake, O,Cho,Rol</string>
+    <string name="the_green_table_detail">Signature Dish : French cuisine</string>
+    <string name="makoto_detail">Signature Dish : Sasimi Jeongsik, Sukiyaki Jeongsik, Wahoo Steak Jeongsik, Teukseon Makoto Course</string>
+    <string name="badalbi_detail">Signature Dish : Jeonggyeoun Set Menu, Jeulgeoun Set Menu, Haengbokhan Set Menu</string>
+    <string name="paul_n_paulin_detail">Signature Dish : Ciabatta, Pain Au Chocolat, White Ciabatta, Black Olive</string>
+    <string name="beard_papas_detail">Signature Dish : A variety of pastries but the choux pastries</string>
+    <string name="pierro_gagnaire_detail">Signature Dish : The sea, The land, 4 plats, Stir-fried Pok</string>
+
+    <string name="sinmi_sikdang_address">06023  214, Apgujeong-ro, Gangnam-gu, Seoul</string>
+    <string name="oyull_address">820–9, Yeoksam-dong, Gangnam-gu, Seoul</string>
+    <string name="sanha_address">150–890  383, Yeouidaebang-ro, Yeongdeungpo-gu, Seoul</string>
+    <string name="cacao_green_address">32–5, Myeong-dong2-ga, Jung-gu, Seoul</string>
+    <string name="the_green_table_address">06019  13, Seolleung-ro 155-gil, Gangnam-gu, Seoul</string>
+    <string name="makoto_address">92–18, Cheongdam-dong, Gangnam-gu, Seoul</string>
+    <string name="badalbi_address">08753  17, Bongcheon-ro 12-gil, Gwanak-gu, Seoul</string>
+    <string name="paul_n_paulin_address">344–6, Seogyo-dong, Mapo-gu, Seoul</string>
+    <string name="beard_papas_address">137–130  224 Gangnam-daero, Seocho-gu, Seoul</string>
+    <string name="pierro_gagnaire_address">35F,30, Eulji-ro, Jung-gu, Seoul, Korea Lotte Hotel Seoul</string>
+
+    <string name="sinmi_sikdang_hours">10:00 ~ 22:00</string>
+    <string name="oyull_hours">11:30 – 22:00</string>
+    <string name="sanha_hours">Closed on Sundays / 11:00 – 21:00</string>
+    <string name="cacao_green_hours">Monday-Saturday : 09:00~23:00, Sunday : 09:00~23:00</string>
+    <string name="the_green_table_hours">Lunch 12:00 – 15:00, Dinner 18:00 – 22:00</string>
+    <string name="makoto_hours">17:30 – 02:00, Sunday : 17:00 – 24:00</string>
+    <string name="badalbi_hours">12:00 – 22:00</string>
+    <string name="paul_n_paulin_hours">12:00 – 19:00</string>
+    <string name="beard_papas_hours">Weekday 8:00 – 23:00, Weekend 8:00 – 22:00</string>
+    <string name="pierro_gagnaire_hours">Lunch 12:00 – 15:00, Dinner 18:00 – 22:00</string>
+
+    <string name="sinmi_sikdang_phone">+82–2–516–4900</string>
+    <string name="oyull_phone">+82–2–554–0511</string>
+    <string name="sanha_phone">+82–2–782–1420</string>
+    <string name="cacao_green_phone">+82–2–3789–3102</string>
+    <string name="the_green_table_phone">+82–2–591–2672</string>
+    <string name="makoto_phone">+82–2–546–9218</string>
+    <string name="badalbi_phone">+82–2–889–2600</string>
+    <string name="paul_n_paulin_phone">+82–2–333–0185</string>
+    <string name="beard_papas_phone">+82–2–3461–2987</string>
+    <string name="pierro_gagnaire_phone">+82–2–317–7181</string>
+
+    <string name="sinmi_sikdang_link">http://english.visitseoul.net/eat/Sinmi-Sikdang-EN_/4642?curPage=1</string>
+    <string name="oyull_link">http://english.visitseoul.net/redeat/view/2033</string>
+    <string name="sanha_link">http://english.visitseoul.net/eat/Sanha1_/4557?curPage=1</string>
+    <string name="cacao_green_link">http://english.visitseoul.net/redeat/view/17218</string>
+    <string name="the_green_table_link">http://www.thegreentable.co.kr/</string>
+    <string name="makoto_link">http://english.visitseoul.net/redeat/view/26001</string>
+    <string name="badalbi_link">http://www.badalbi.com/src/</string>
+    <string name="paul_n_paulin_link">http://english.visitseoul.net/redeat/view/1832</string>
+    <string name="beard_papas_link">http://www.beardpapas.co.kr/</string>
+    <string name="pierro_gagnaire_link">http://english.visitseoul.net/redeat/view/830</string>
 </resources>
