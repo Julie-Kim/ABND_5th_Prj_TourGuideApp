@@ -18,7 +18,7 @@ public class FestivalFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_info_list, container, false);
 
-        /** Festival
+        /* Festival
          * 1. Yeon Deung Hoe (Lotus Lantern Festival) (5/3 - 5/5)
          * 2. Seoul Drum Festival 2019 (5/25 - 5/26)
          * 3. Seoul Rose Festival (5/24~26)

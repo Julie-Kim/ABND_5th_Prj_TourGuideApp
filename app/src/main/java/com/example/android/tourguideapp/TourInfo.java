@@ -1,11 +1,6 @@
 package com.example.android.tourguideapp;
 
-public class TourInfo {
-
-    /**
-     * Constant value that represents no image was provided
-     */
-    private static final int NO_IMAGE_PROVIDED = -1;
+class TourInfo {
 
     // 1. title - resource id
     private int mTitleResId;
@@ -28,11 +23,7 @@ public class TourInfo {
     // 7. website or link (view more) - resource id
     private int mLinkResId;
 
-    public TourInfo(int titleResId, int descriptionResId, int addressResId, int hoursResId, int phoneResId, int linkResId) {
-        this(titleResId, descriptionResId, NO_IMAGE_PROVIDED, addressResId, hoursResId, phoneResId, linkResId);
-    }
-
-    public TourInfo(int titleResId, int descriptionResId, int imageResId, int addressResId, int hoursResId, int phoneResId, int linkResId) {
+    TourInfo(int titleResId, int descriptionResId, int imageResId, int addressResId, int hoursResId, int phoneResId, int linkResId) {
         mTitleResId = titleResId;
         mDescriptionResId = descriptionResId;
         mImageResId = imageResId;
@@ -42,51 +33,31 @@ public class TourInfo {
         mLinkResId = linkResId;
     }
 
-    public int getTitleResId() {
+    int getTitleResId() {
         return mTitleResId;
     }
 
-    public int getDescriptionResId() {
+    int getDescriptionResId() {
         return mDescriptionResId;
     }
 
-    public int getImageResId() {
+    int getImageResId() {
         return mImageResId;
     }
 
-    public int getAddressResId() {
+    int getAddressResId() {
         return mAddressResId;
     }
 
-    public int getOpeningHoursResId() {
+    int getOpeningHoursResId() {
         return mOpeningHoursResId;
     }
 
-    public int getPhoneResId() {
+    int getPhoneResId() {
         return mPhoneResId;
     }
 
-    public int getLinkResId() {
+    int getLinkResId() {
         return mLinkResId;
-    }
-
-    /**
-     * Returns whether or not there is an image
-     */
-    public boolean hasImage() {
-        return mImageResId != NO_IMAGE_PROVIDED;
-    }
-
-    @Override
-    public String toString() {
-        return "TourInfo{" +
-                "mTitleResId='" + mTitleResId + '\'' +
-                ", mDescriptionResId='" + mDescriptionResId + '\'' +
-                ", mImageResId=" + mImageResId +
-                ", mAddress='" + mAddressResId + '\'' +
-                ", mOpeningHoursResId='" + mOpeningHoursResId + '\'' +
-                ", mPhoneResId='" + mPhoneResId + '\'' +
-                ", mLinkResId='" + mLinkResId + '\'' +
-                '}';
     }
 }

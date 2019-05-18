@@ -18,7 +18,7 @@ public class RestaurantsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_info_list, container, false);
 
-        /** Restaurants
+        /* Restaurants
          * 1. Sinmi Sikdang
          * 2. Oyull
          * 3. Sanha

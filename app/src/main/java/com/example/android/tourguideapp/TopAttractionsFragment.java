@@ -18,7 +18,7 @@ public class TopAttractionsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_info_list, container, false);
 
-        /** Top 10 Attractions
+        /* Top 10 Attractions
          * 1. Dongdaemun Market
          * 2. Myeong-dong
          * 3. Gyeongbokgung Palace

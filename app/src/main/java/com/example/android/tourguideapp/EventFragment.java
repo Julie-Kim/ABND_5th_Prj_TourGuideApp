@@ -18,7 +18,7 @@ public class EventFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_info_list, container, false);
 
-        /** Event
+        /* Event
          * 1. Namsangol Hanok Village : All About Korean Traditional Experience 2019
          * 2. Foreigner Taekwondo Experience Program
          * 3. Hallyu K-food Cooking Class

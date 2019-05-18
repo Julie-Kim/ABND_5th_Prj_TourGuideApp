@@ -6,8 +6,7 @@
     <string name="event">Event</string>
     <string name="festival">Festival 2019</string>
     <string name="restaurants">Restaurants</string>
-    <string name="accommodation">Accommodation</string>
-    <string name="information_center">Tourist Information Centers</string>
+    <string name="unique_stays">Unique Stays</string>
 
     <string name="dongdaemun_market">Dongdaemun Market</string>
     <string name="myeong_dong">Myeong-dong</string>
@@ -200,4 +199,52 @@
     <string name="paul_n_paulin_link">http://english.visitseoul.net/redeat/view/1832</string>
     <string name="beard_papas_link">http://www.beardpapas.co.kr/</string>
     <string name="pierro_gagnaire_link">http://english.visitseoul.net/redeat/view/830</string>
+
+    <string name="doo_guesthouse">Doo Guesthouse</string>
+    <string name="woorijip_guesthouse">Woori-jip Guesthouse</string>
+    <string name="templestay">Templestay (Bongeunsa Temple)</string>
+    <string name="seoul_grand_park_campground">Seoul Grand Park Campground</string>
+    <string name="doo_guesthouse_bukchon">Doo Guesthouse (Bukchon)</string>
+    <string name="wwoof_korea_guesthouse">WWOOF Korea Guesthouse</string>
+    <string name="namhyundang_hanok_guesthouse">Namhyundang Hanok Guesthouse</string>
+
+    <string name="doo_guesthouse_detail">Doo Guesthouse is pleasant to look at, as many traditional Korean houses are with their antique feel.</string>
+    <string name="woorijip_guesthouse_detail">Experience the beauty of traditional architecture with a stay at the Woori-jip Guesthouse in Bukchon Hanok Village.</string>
+    <string name="templestay_detail">The Practicing Templefor the Revival of Korean Buddhism</string>
+    <string name="seoul_grand_park_campground_detail">Nestled within the crystal clear streams and lush green forest of Cheonggyesan (Mountain)</string>
+    <string name="doo_guesthouse_bukchon_detail">Guests can fully experience the tranquility of a traditional Korean house, the hanok</string>
+    <string name="wwoof_korea_guesthouse_detail">This house is what we call a hanok, a Korean traditional house with a small green garden.</string>
+    <string name="namhyundang_hanok_guesthouse_detail">Conveniently located, right across from the traditional neighborhood of Insadong, in the center of the city.</string>
+
+    <string name="doo_guesthouse_address">03056  103–7, Gyedong-gil, Jongno-gu, Seoul</string>
+    <string name="woorijip_guesthouse_address">03059  33–13 Gyedong-gil, Jongno-gu, Seoul</string>
+    <string name="templestay_address">531 Bongeunsa-ro Gangnam-gu, Seoul</string>
+    <string name="seoul_grand_park_campground_address">13829  313, Gwangmyeong-ro, Gwacheon-si, Gyeonggi-do (국립현대미술관)</string>
+    <string name="doo_guesthouse_bukchon_address">110–270  103–7, Gyedong-gil, Jongno-gu, Seoul</string>
+    <string name="wwoof_korea_guesthouse_address">110–270  52–11, Gyedong-gil, Jongno-gu, Seoul</string>
+    <string name="namhyundang_hanok_guesthouse_address">110–310  446–15, Samil-daero, Jongno-gu, Seoul</string>
+
+    <string name="doo_guesthouse_hours"> </string>
+    <string name="woorijip_guesthouse_hours"> </string>
+    <string name="templestay_hours"> </string>
+    <string name="seoul_grand_park_campground_hours"> </string>
+    <string name="doo_guesthouse_bukchon_hours"> </string>
+    <string name="wwoof_korea_guesthouse_hours"> </string>
+    <string name="namhyundang_hanok_guesthouse_hours"> </string>
+
+    <string name="doo_guesthouse_phone">+82–2–3672–1977</string>
+    <string name="woorijip_guesthouse_phone">+82–2–744–0536</string>
+    <string name="templestay_phone">+82–2–3218–4826/4846</string>
+    <string name="seoul_grand_park_campground_phone">+82–2–500–7338</string>
+    <string name="doo_guesthouse_bukchon_phone">+82–2–3672–1977</string>
+    <string name="wwoof_korea_guesthouse_phone">+82–2–723–4510</string>
+    <string name="namhyundang_hanok_guesthouse_phone">+82–2–2659–8788</string>
+
+    <string name="doo_guesthouse_link">http://www.dooguesthouse.com/main.html</string>
+    <string name="woorijip_guesthouse_link">http://www.facebook.com/wooriguest/</string>
+    <string name="templestay_link">https://eng.templestay.com/temple_info.asp?t_id=bongeunsa</string>
+    <string name="seoul_grand_park_campground_link">http://grandpark.seoul.go.kr/engMain.jsp</string>
+    <string name="doo_guesthouse_bukchon_link">http://www.dooguesthouse.com/main.html</string>
+    <string name="wwoof_korea_guesthouse_link">http://www.theplaceseoul.com/?lang=en</string>
+    <string name="namhyundang_hanok_guesthouse_link">http://www.namhyundang.co.kr</string>
 </resources>

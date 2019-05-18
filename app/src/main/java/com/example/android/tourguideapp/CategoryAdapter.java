@@ -8,14 +8,13 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private static final int PAGE_COUNT = 6;
+    private static final int PAGE_COUNT = 5;
 
     private static final int TAB_TOP_ATTRACTIONS = 0;
     private static final int TAB_EVENT = 1;
     private static final int TAB_FESTIVAL = 2;
     private static final int TAB_RESTAURANTS = 3;
-    private static final int TAB_ACCOMMODATION = 4;
-    private static final int TAB_INFORMATION_CENTER = 5;
+    private static final int TAB_UNIQUE_STAYS = 4;
 
     private Context mContext;
 
@@ -24,8 +23,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             R.string.event,
             R.string.festival,
             R.string.restaurants,
-            R.string.accommodation,
-            R.string.information_center
+            R.string.unique_stays
     };
 
     CategoryAdapter(Context context, FragmentManager fm) {
@@ -44,10 +42,8 @@ public class CategoryAdapter extends FragmentPagerAdapter {
                 return new FestivalFragment();
             case TAB_RESTAURANTS:
                 return new RestaurantsFragment();
-            case TAB_ACCOMMODATION:
-                return new AccommodationFragment();
-            case TAB_INFORMATION_CENTER:
-                return new InformationCenterFragment();
+            case TAB_UNIQUE_STAYS:
+                return new UniqueStaysFragment();
         }
         return new TopAttractionsFragment();
     }
