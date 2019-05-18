@@ -1,3 +1,107 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
+    <string name="image_of_tour">Image of tour</string>
+    <string name="view_more">View more</string>
+    <string name="top_attractions">Top attractions</string>
+    <string name="event">Event</string>
+    <string name="festival">Festival 2019</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="information_center">Tourist Information Centers</string>
+
+    <string name="dongdaemun_market">Dongdaemun Market</string>
+    <string name="myeong_dong">Myeong-dong</string>
+    <string name="gyeonbokgung_palace">Gyeongbokgung Palace</string>
+    <string name="n_seoul_tower">N Seoul Tower</string>
+    <string name="insa_dong">Insa-dong</string>
+    <string name="namdaemun_market">Namdaemun Market</string>
+    <string name="seoul_city_wall">Seoul City Wall</string>
+    <string name="dongdaemun_design_plaza">Dongdaemun Design Plaza</string>
+    <string name="hongdae">Hongdae</string>
+    <string name="chenggyechon">Cheonggyecheon (Stream)</string>
+
+    <string name="dongdaemun_market_detail">A huge shopping district where you can find almost anything!</string>
+    <string name="myeong_dong_detail">Seoul\'s shopping mecca filled with beauty outlets, malls, street stalls, and more.</string>
+    <string name="gyeonbokgung_palace_detail">The first royal palace built during the Joseon dynasty.</string>
+    <string name="n_seoul_tower_detail">One of the most popular ways to see Seoul\'s skyline.</string>
+    <string name="insa_dong_detail">Experience Korea\'s traditional charm through food and shopping.</string>
+    <string name="namdaemun_market_detail">The largest traditional market in Korea with over 10,000 stores.</string>
+    <string name="seoul_city_wall_detail">Once used as a fortress in the past, it is now a beautiful, scenic way to explore the city.</string>
+    <string name="dongdaemun_design_plaza_detail">Boasting amazing architecture, this space is used for the latest and hottest exhibitions in Seoul.</string>
+    <string name="hongdae_detail">Most energetic at night, Hongdae is known for its cafes, clubs, wall murals, fashion, underground music and art festivals.</string>
+    <string name="chenggyechon_detail">This long, modern stream runs 11 km long through downtown Seoul. Try dipping your feet!</string>
+
+    <string name="dongdaemun_market_address">04564  253 Jangchungdan-ro, Jung-gu, Seoul</string>
+    <string name="myeong_dong_address">04536  27 Myeong-dong 8-gil, Jung-gu, Seoul</string>
+    <string name="gyeonbokgung_palace_address">03045  161 Sajik-ro, Jongno-gu, Seoul</string>
+    <string name="n_seoul_tower_address">04340  105 Namsangongwon-gil, Yongsan-gu, Seoul, Korea (Yongsan-dong 2-ga, YTN Seoul Tower)</string>
+    <string name="insa_dong_address">03145  39–1 Insadong-gil, Jongno-gu, Seoul</string>
+    <string name="namdaemun_market_address">04529  21 Namdaemunsijang 4-gil, Jung-gu, Seoul</string>
+    <string name="seoul_city_wall_address">03038  283 Yulgok-ro, Jongno-gu, Seoul (Jongno 6-ga, Seoul Design Support Center)</string>
+    <string name="dongdaemun_design_plaza_address">04566  281 Euljiro, Jung-gu, Seoul (Euljiro 7-ga)</string>
+    <string name="hongdae_address">04050  B 160 Yanghwa-ro, Mapo-gu, Seoul, Korea</string>
+    <string name="chenggyechon_address">03187,  37 Mugyo-ro, Jongno-gu, Seoul, Korea (Seorin-dong)</string>
+
+    <string name="dongdaemun_market_hours">Varies per shop/mall</string>
+    <string name="myeong_dong_hours">Varies by store</string>
+    <string name="gyeonbokgung_palace_hours">Closed on Tuesdays</string>
+    <string name="n_seoul_tower_hours">Monday–Friday/Sunday 10:00–23:00, Saturdays 10:00–24:00</string>
+    <string name="insa_dong_hours"> </string>
+    <string name="namdaemun_market_hours">Varies from shop to shop.</string>
+    <string name="seoul_city_wall_hours"> </string>
+    <string name="dongdaemun_design_plaza_hours">Design Market: open 24 hours</string>
+    <string name="hongdae_hours"> </string>
+    <string name="chenggyechon_hours"> </string>
+
+    <string name="dongdaemun_market_phone">+82–2–120</string>
+    <string name="myeong_dong_phone">+82–2–120</string>
+    <string name="gyeonbokgung_palace_phone">+82–2–3700–3900</string>
+    <string name="n_seoul_tower_phone">+82–2–3455–9277</string>
+    <string name="insa_dong_phone">+82–2–120</string>
+    <string name="namdaemun_market_phone">+82–2–753–2805</string>
+    <string name="seoul_city_wall_phone">+82–2–120</string>
+    <string name="dongdaemun_design_plaza_phone">+82–2–2153–0000</string>
+    <string name="hongdae_phone"> </string>
+    <string name="chenggyechon_phone">+82–2–2290–7111</string>
+
+    <string name="dongdaemun_market_link">http://dfwm.kr</string>
+    <string name="myeong_dong_link">http://english.visitseoul.net/shopping/Myeong-dong_/68</string>
+    <string name="gyeonbokgung_palace_link">http://www.royalpalace.go.kr:8080/html/eng_gbg/main/main.jsp</string>
+    <string name="n_seoul_tower_link">https://www.seoultower.co.kr/en/</string>
+    <string name="insa_dong_link">http://english.visitseoul.net/shopping/Insa-dong_/81</string>
+    <string name="namdaemun_market_link">http://namdaemunmarket.co.kr/index.php</string>
+    <string name="seoul_city_wall_link">http://seoulcitywall.seoul.go.kr/front/eng/index.do</string>
+    <string name="dongdaemun_design_plaza_link">http://www.ddp.or.kr</string>
+    <string name="hongdae_link">http://english.visitseoul.net/tours/Nighttime-Adventures-in-Seoul_/32</string>
+    <string name="chenggyechon_link">https://www.sisul.or.kr/open_content/cheonggye/</string>
+
+    <string name="namsangol_hanok_village">Namsangol Hanok Village</string>
+    <string name="foreigner_taekwondo_experience_program">Foreigner Taekwondo Experience Program</string>
+    <string name="hallyu_k_food_cooking_class">Hallyu K-food Cooking Class</string>
+    <string name="workshop_for_my_dear">Workshop for my DEAR</string>
+
+    <string name="namsangol_hanok_village_detail">All About Korean Traditional Experience 2019 </string>
+    <string name="foreigner_taekwondo_experience_program_detail">A Taekwondo experience program specifically for foreigners will take place at Namsangol Hanok Village</string>
+    <string name="hallyu_k_food_cooking_class_detail">A chance to cook Korean food seen in popular Korean dramas and entertainment shows!</string>
+    <string name="workshop_for_my_dear_detail">Celebrate May, a month for family related events</string>
+
+    <string name="namsangol_hanok_village_address">04626  28 Toegye-ro 34-gil, Jung-gu, Seoul</string>
+    <string name="foreigner_taekwondo_experience_program_address">04626  28 Toegye-ro 34-gil, Jung-gu, Seoul</string>
+    <string name="hallyu_k_food_cooking_class_address">CJ The Kitchen, 1F, CJ CheilJedang Center(330, Dongho-ro, Jung-gu, Seoul)</string>
+    <string name="workshop_for_my_dear_address">03076  29 Changgyeonggung-ro 35-gil, Jongno-gu, Seoul</string>
+
+    <string name="namsangol_hanok_village_hours">Closed Monday / 10:30 – 17:00</string>
+    <string name="foreigner_taekwondo_experience_program_hours">Apr. 24, 2019 ~ Oct. 31, 2019 / Every Wed·Thu 11:00 – 12:00</string>
+    <string name="hallyu_k_food_cooking_class_hours">Every first and third Thursday of each month from May to December 2019, 11:00~13:00</string>
+    <string name="workshop_for_my_dear_hours">May. 01, 2019 ~ May. 26, 2019</string>
+
+    <string name="namsangol_hanok_village_phone">+82–70–4468–9873</string>
+    <string name="foreigner_taekwondo_experience_program_phone">+82–2–6674–4303</string>
+    <string name="hallyu_k_food_cooking_class_phone">+82–2–790–3994</string>
+    <string name="workshop_for_my_dear_phone">+82–2–2138–7373</string>
+
+    <string name="namsangol_hanok_village_link">http://www.hanokmaeul.or.kr/</string>
+    <string name="foreigner_taekwondo_experience_program_link">http://english.visitseoul.net/event-festival/Foreigner-Taekwondo-Experience-Program_/29116?curPage=1</string>
+    <string name="hallyu_k_food_cooking_class_link">http://english.visitseoul.net/event-festival/Cooking-class-for-K-foods-featured-in-K-dramas_/21116?curPage=1</string>
+    <string name="workshop_for_my_dear_link">http://www.jeijcc.org/intro.html</string>
 </resources>

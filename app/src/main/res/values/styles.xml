@@ -6,6 +6,73 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/AppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="AppBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:padding">@dimen/default_text_padding</item>
+        <item name="android:paddingStart">@dimen/title_text_padding_start</item>
+        <item name="android:shadowColor">@color/colorPrimaryDark</item>
+        <item name="android:shadowDx">@dimen/title_text_shadow_dx_dy</item>
+        <item name="android:shadowDy">@dimen/title_text_shadow_dx_dy</item>
+        <item name="android:shadowRadius">@dimen/title_text_shadow_radius</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:padding">@dimen/default_text_padding</item>
+        <item name="android:shadowColor">@color/colorPrimaryDark</item>
+        <item name="android:shadowDx">@dimen/title_text_shadow_dx_dy</item>
+        <item name="android:shadowDy">@dimen/title_text_shadow_dx_dy</item>
+        <item name="android:shadowRadius">@dimen/title_text_shadow_radius</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DetailInfoTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ViewMoreTextStyle">
+        <item name="android:layout_width">@dimen/view_more_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/default_text_padding</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">italic</item>
     </style>
 
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/indicator_icon_size"
+        android:height="@dimen/indicator_icon_size"
+        android:end="@dimen/indicator_icon_margin_end">
+
+        <bitmap
+            android:src="@drawable/ic_location_on"
+            android:tint="@color/indicator_icon_color" />
+    </item>
+</layer-list>
