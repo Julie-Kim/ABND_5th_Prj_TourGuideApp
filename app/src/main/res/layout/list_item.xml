@@ -11,8 +11,10 @@
         android:background="@color/colorPrimaryDark" />
 
     <RelativeLayout
+        android:id="@+id/title_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/tour_info_title_height">
+        android:layout_height="@dimen/tour_info_title_height"
+        android:foreground="?android:selectableItemBackground">
 
         <ImageView
             android:id="@+id/image"

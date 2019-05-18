@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,12 +30,24 @@ public class TourInfoAdapter extends ArrayAdapter<TourInfo> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        final TourInfo tourInfo = getItem(position);
-
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
+
+        final TourInfo tourInfo = getItem(position);
+
+        if (tourInfo == null) {
+            return listItemView;
+        }
+
+        View titleContainer = listItemView.findViewById(R.id.title_container);
+        titleContainer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDetailLinkPage(tourInfo);
+            }
+        });
 
         TextView titleText = listItemView.findViewById(R.id.title);
         titleText.setText(tourInfo.getTitleResId());
@@ -76,11 +89,17 @@ public class TourInfoAdapter extends ArrayAdapter<TourInfo> {
         linkText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getContext().getString(tourInfo.getLinkResId())));
-                getContext().startActivity(browserIntent);
+                openDetailLinkPage(tourInfo);
             }
         });
 
         return listItemView;
+    }
+
+    private void openDetailLinkPage(TourInfo tourInfo) {
+        Log.i(TAG, "openDetailLinkPage() tourInfo : " + tourInfo.toString(getContext()));
+
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getContext().getString(tourInfo.getLinkResId())));
+        getContext().startActivity(browserIntent);
     }
 }

@@ -1,5 +1,7 @@
 package com.example.android.tourguideapp;
 
+import android.content.Context;
+
 class TourInfo {
 
     // 1. title - resource id
@@ -59,5 +61,17 @@ class TourInfo {
 
     int getLinkResId() {
         return mLinkResId;
+    }
+
+    String toString(Context context) {
+        return "TourInfo{" +
+                "Title=" + context.getString(mTitleResId) +
+                ", Description=" + context.getString(mDescriptionResId) +
+                ", mImageResId=" + mImageResId +
+                ", Address=" + context.getString(mAddressResId) +
+                ", OpeningHours=" + context.getString(mOpeningHoursResId) +
+                ", Phone=" + context.getString(mPhoneResId) +
+                ", Link=" + context.getString(mLinkResId) +
+                '}';
     }
 }
